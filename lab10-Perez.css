@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Playfair Display';
+    background: linear-gradient(to right, #afa2e4, #e9c4ef);
+}
+#title {
+    text-align: center;
+}
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'PT Serif';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+h2 {
+    color: white;
+    font-family: "PT Serif";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h3 {
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'PT Serif';
+}
+p{
+    color: #3b3a3a;
+    font-family: 'Playfair Display', serif;
+}
+.container-fluid1 {
+    padding: 3% 15%;
+    font-family: 'PT Serif';
+}
+.container-fluid2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+    text-align: center;
+}
+.navbar-brand{
+    font-family: 'PT Serif';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+#skills {
+    background-color: #ffffff52;
+    padding: 4% 15% 1% 15%;
+    position: relative;
+}
+
+.skill-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #777777;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #c762ec;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+#aboutme {
+    padding: 30px 100px 30px 100px;
+    text-align: center;
+}
+.aboutme-header {
+    color: rgb(0, 0, 0);
+}
+
+.aboutme-column{
+    padding: 3% 2%;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+#webpages{
+    padding: 0px 100px 50px 100px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+#cta {
+    background-color: #ffffff52;
+    color: rgb(255, 255, 255);
+    padding: 7% 15% 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
